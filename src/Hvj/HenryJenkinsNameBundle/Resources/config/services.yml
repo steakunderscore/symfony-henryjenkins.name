@@ -1,0 +1,7 @@
+parameters:
+#    hvj_henry_jenkins_name.example.class: Hvj\HenryJenkinsNameBundle\Example
+
+services:
+#    hvj_henry_jenkins_name.example:
+#        class: %hvj_henry_jenkins_name.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

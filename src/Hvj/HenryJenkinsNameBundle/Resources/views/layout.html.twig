@@ -1,0 +1,18 @@
+{% extends 'HvjHenryJenkinsNameBundle::base.html.twig' %}
+
+{% block stylesheets %}
+    {{ parent() }}
+    <link href="{{ asset('bundles/hvjhenryjenkinsname/css/blog.css') }}" type="text/css" rel="stylesheet" />
+{% endblock %}
+
+{% block sidebar %}
+<section class="section">
+   <h3>Presence on the internet</h3>
+   <ul>
+        <li><a href="http://www.facebook.com/steakunderscore" title="Henry on Facebook" target="_blank">Facebook</a></li>
+        <li><a href="https://github.com/steakunderscore" title="GitHub" target="_blank">GitHub</a></li>
+        <li><a href="http://www.linkedin.com/pub/henry-jenkins/8/177/250" title="Linkedin" target="_blank">Linkedin</a></li>
+        <li><a href="https://twitter.com/#!/steakunderscore" title="Twitter" target="_blank">Twitter</a></li>
+   </ul>
+</section>
+{% endblock %}

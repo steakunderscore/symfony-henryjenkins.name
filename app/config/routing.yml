@@ -1,0 +1,4 @@
+hvj_henry_jenkins_name:
+    resource: "@HvjHenryJenkinsNameBundle/Resources/config/routing.yml"
+    prefix:   /
+

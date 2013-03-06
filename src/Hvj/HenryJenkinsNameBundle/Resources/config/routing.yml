@@ -1,0 +1,18 @@
+hvj_henry_jenkins_name_homepage:
+    pattern:  /
+    defaults: { _controller: HvjHenryJenkinsNameBundle:Default:index }
+    requirements:
+        _method:  GET
+
+hvj_henry_jenkins_name_about:
+    pattern:  /about
+    defaults: { _controller: HvjHenryJenkinsNameBundle:Default:about }
+    requirements:
+        _method:  GET
+
+hvj_henry_jenkins_name_contact:
+    pattern:  /contact
+    defaults: { _controller: HvjHenryJenkinsNameBundle:Default:contact }
+    requirements:
+        _method:  GET|POST
+
