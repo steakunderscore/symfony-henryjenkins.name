@@ -1,0 +1,11 @@
+parameters:
+    hvj_henry_jenkins_name.emails.contact_email: henry@henryjenkins.name
+
+google:
+    analytics:
+        trackers:
+            default:
+                name:      HvjHenryJenkinsName
+                accountId: 
+                domain:    henryjenkins.name
+                trackPageLoadTime: true

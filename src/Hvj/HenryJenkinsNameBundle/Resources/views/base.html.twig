@@ -50,6 +50,8 @@
             </div>
         </section>
 
-        {% block javascripts %}{% endblock %}
+        {% block javascripts %}
+            {% include "GoogleBundle:Analytics:async.html.twig" %}
+        {% endblock %}
     </body>
 </html>
