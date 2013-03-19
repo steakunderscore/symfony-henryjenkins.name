@@ -1,4 +1,5 @@
 .henryjenkinsname-notice { text-align: center; padding: 10px; background: #DFF2BF; border: 1px solid; color: #4F8A10; margin-bottom: 10px; }
+.henryjenkinsname-error { text-align: center; padding: 10px; background: #FFBABA; border: 1px solid; color: #D8000C; margin-bottom: 10px; }
 form.henryjenkinsname { font-size: 16px; }
 form.henryjenkinsname div { clear: left; margin-bottom: 10px; }
 form.henryjenkinsname label { float: left; margin-right: 10px; text-align: right; width: 100px; font-weight: bold; vertical-align: top; padding-top: 10px; }
@@ -8,3 +9,4 @@ form.henryjenkinsname input[type="email"]
 form.henryjenkinsname textarea { width: 500px; height: 150px; line-height: 26px; font-size: 20px; }
 form.henryjenkinsname input[type="submit"] { margin-left: 110px; width: 508px; line-height: 26px; font-size: 20px; min-height: 26px; }
 form.henryjenkinsname ul li { color: #ff0000; margin-bottom: 5px; }
+#recaptcha_widget_div { padding-left: 110px; }

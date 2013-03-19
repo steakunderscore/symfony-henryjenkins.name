@@ -4,6 +4,7 @@ namespace Hvj\HenryJenkinsNameBundle\Entity;
 
 use Symfony\Component\Validator\Mapping\ClassMetadata;
 use Symfony\Component\Validator\Constraints as Assert;
+use EWZ\Bundle\RecaptchaBundle\Validator\Constraints as Recaptcha;
 
 /**
  * Enquiry
@@ -39,6 +40,11 @@ class Enquiry
      * @var string
      */
     private $body;
+
+    /**
+     * @Recaptcha\True
+     */
+    public $recaptcha;
 
 
     /**

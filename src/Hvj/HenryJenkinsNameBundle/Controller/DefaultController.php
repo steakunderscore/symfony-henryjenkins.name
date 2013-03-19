@@ -41,6 +41,9 @@ class DefaultController extends Controller
                 // the form if they refresh the page
                 return $this->redirect($this->generateUrl('hvj_henry_jenkins_name_contact'));
             }
+            else {
+	        $this->get('session')->getFlashBag()->add('error', 'You didn\'t fill in the message properly!');
+            }
         }
 
         return $this->render('HvjHenryJenkinsNameBundle:Page:contact.html.twig', array(
